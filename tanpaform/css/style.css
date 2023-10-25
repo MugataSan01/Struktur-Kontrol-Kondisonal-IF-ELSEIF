@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #6e5151; /* Ganti dengan warna latar belakang yang Anda sukai */
+}
+
+h1 {
+    color: #66e3e3;
+    font-size: 36px; /* Ukuran font yang lebih besar */
+    text-transform: uppercase; /* Huruf menjadi kapital */
+    margin-top: 20px; /* Jarak atas dari judul */
+}
+#kubus, #balok, #bola, #tabung {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+    background-color: #fff; /* Ganti dengan warna latar belakang yang Anda sukai */
+    border: 1px solid #ccc; /* Garis tepi untuk memberikan tampilan yang lebih jelas */
+    border-radius: 10px; /* Sudut elemen yang lebih lembut */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Efek bayangan untuk memberikan dimensi */
+}
+#kubus img, #balok img, #bola img, #tabung img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Sudut elemen atas lebih lembut */
+}
+#kubus:hover, #balok:hover, #bola:hover, #tabung:hover {
+    transform: scale(1.05); /* Perbesar elemen saat dihover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan yang lebih menonjol saat dihover */
+}
+.formula {
+    display: block;
+    background-color: #f9f9f9; /* Ganti dengan warna latar belakang yang Anda sukai */
+    padding: 10px;
+    border-top: 1px solid #ccc; /* Garis atas untuk pemisahan */
+    font-size: 12px;
+}
+.formula h2 {
+    font-size: 18px;
+}
